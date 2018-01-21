@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-author: T _ T搬砖大队的一员
+title: 前端技术博客
+subtitle: try try try
+description: 不用吃东西也能活下去就好了
+author: YanChaoying
 language: zh-Hans
 timezone:
 
@@ -81,10 +81,15 @@ deploy:
   repository: https://github.com/tossers/tossers.github.io.git
   branch: master
   
- #新增搜索
+#新增搜索
 algolia:
   applicationID: ZDB4GSAJ6B
   apiKey: b849ccd81beb9b3f41d48d24ec38589b
   adminApiKey: 466cb6b5d25c07150f10f80489ddb002
   indexName: demo
   chunkSize: 5000
+ 
+#新增头像
+avatar: /images/avatar.png
+
+  
